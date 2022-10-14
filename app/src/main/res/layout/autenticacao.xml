@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtAutenticacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autenticação"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/dark_green"
+        />
+    <EditText
+        android:id="@+id/edtLoginA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAutenticacao"
+        android:hint="Login"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:id="@+id/edtSenhaA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtLoginA"
+        android:hint="Senha"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtSenhaA"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="ENTRAR"
+        android:textSize="30dp" />
+
+</RelativeLayout>
